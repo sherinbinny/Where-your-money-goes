@@ -23,9 +23,13 @@ body,html
 }
 
 
+.content-box
+{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: auto;
+}
 
-
-.content-box > p
+.content-box > p:nth-child(4)
 {
     font-family: 'FSMeWeb-Bold', Arial, sans-serif;
 }
