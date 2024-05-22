@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Thank you for reviewing my submission. Below is a summary of the project I completed based on the provided design and requirements.
+Below is a summary of the project I completed based on the provided design and requirements.
 
 ### Project Overview
 
