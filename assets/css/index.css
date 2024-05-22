@@ -1,44 +1,45 @@
-
-
-body
+body,html
 {
-    background: url("../images/WhereYourMoneyGoes-Desktop.png") top/cover no-repeat #d5995f;
+    height: 100%;
+    margin: 0;
+    background: url("../images/WhereYourMoneyGoes-Desktop.png") center center/cover no-repeat #d5995f;
 }
 
 
-/*******************************************************************************************************************************************************************************************************************************/
 
-@media only screen and (max-width: 1200px) and (max-height: 800px)
-{
-
-    body
-    {
-        background: url("../images/WhereYourMoneyGoes-Desktop.png") top/cover no-repeat #d5995f;
-    }
-
-}
-
-
-@media only screen and (max-width: 1200px) and (max-height: 800px)
-{
-
-    body
-    {
-        background: url("../images/WhereYourMoneyGoes-Desktop.png") top/cover no-repeat #d5995f;
-    }
-
-}
 
 
 
 /*******************************************************************************************************************************************************************************************************************************/
 
-@media only screen and (max-width: 768px)
+@media only screen and (min-width: 768px) and (max-width: 991px)
 {
-
     body
     {
-        background: url("../images/WhereYourMoneyGoes-Mobile.png") top/cover no-repeat #d5995f;
+        background-position: center;
+        background-size: auto 100%;
+    }
+}
+
+/*******************************************************************************************************************************************************************************************************************************/
+
+@media only screen and (max-width: 767px)
+{
+    body
+    {
+        background: url("../images/WhereYourMoneyGoes-Mobile.png") center/cover no-repeat #d5995f;
+    }
+
+}
+
+/*******************************************************************************************************************************************************************************************************************************/
+
+@media only screen and (max-width: 650px)
+{
+    body
+    {
+        background-position: top;
+        background-size: contain
     }
 
 }
