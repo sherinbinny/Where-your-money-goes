@@ -27,7 +27,7 @@ body,html
 
 .content-box > h1,
 .content-box > p:nth-child(4),
-.tool-tip-text > p:first-child
+.tool-tip-text > p:nth-child(2)
 {
     font-family: 'FSMeWeb-Bold', Arial, sans-serif;
 }
@@ -56,8 +56,16 @@ button
     background-color: #173145;
 }
 
-
-
+.tool-tip-text span
+{
+    position: absolute;
+    top: -8px;
+    left: 22.5%;
+    width: 17px;
+    height: 17px;
+    transform: rotate(45deg);
+    background: #6F3F87;
+}
 /*******************************************************************************************************************************************************************************************************************************/
 
 @media only screen and (min-width: 768px) and (max-width: 991px)
