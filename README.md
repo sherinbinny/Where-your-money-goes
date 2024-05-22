@@ -30,7 +30,9 @@ The project structure includes the following files and folders:
 To view the project locally:
 
 1. Clone the repository to your local machine using the following command:
-   
+   ```
+   https://github.com/sherinbinny/Where-your-money-goes.git
+   ```
 
 2. Open the `index.html` file in your preferred web browser.
 
