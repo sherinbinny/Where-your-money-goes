@@ -1,12 +1,34 @@
+
+@font-face
+{
+    font-family: 'FSMeWeb-Regular';
+    src: url('https://res.cloudinary.com/tearfund/raw/upload/v1664533753/General/Fonts/FSMeWeb-Regular_rcfffc.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'FSMeWeb-Bold';
+    src: url('https://res.cloudinary.com/tearfund/raw/upload/v1664533752/General/Fonts/FSMeWeb-Bold_ce2eoa.woff2') format('woff2');
+}
+
+
+
+
 body,html
 {
     height: 100%;
     margin: 0;
     background: url("../images/WhereYourMoneyGoes-Desktop.png") center center/cover no-repeat #d5995f;
+    font-family: 'FSMeWeb-Regular', Arial, sans-serif;
 }
 
 
 
+
+.content-box > p
+{
+    font-family: 'FSMeWeb-Bold', Arial, sans-serif;
+}
 
 
 
