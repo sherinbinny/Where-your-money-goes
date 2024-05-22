@@ -1,6 +1,7 @@
-# Front end Developer Task for Tearfund - Where-your-money-goes
+## Where your money goes
+##### Front end Development Task for Tearfund
 
-## Introduction
+### Introduction
 
 Below is a summary of the project I completed based on the provided design and requirements.
 
