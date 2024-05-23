@@ -1,4 +1,4 @@
-## Where your money goes?
+<img width="863" alt="Screenshot 2024-05-23 at 01 15 24" src="https://github.com/sherinbinny/Where-your-money-goes/assets/101629905/87b56600-8c93-4a0a-99f5-b67f1d10256f">## Where your money goes?
 
 ### Front end Development Task for Tearfund
 
@@ -42,5 +42,17 @@ To view the project locally:
 2. **Image Loading**: Background image might take a bit longer to show up on the webpage because it's quite big.
 
 3. **Code Comments**: Didn't get a chance to add comments to describe how code works.
+
+### Screenshots
+
+
+1. Desktop
+
+<img width="863" alt="Screenshot 2024-05-23 at 01 15 24" src="https://github.com/sherinbinny/Where-your-money-goes/assets/101629905/ecaa0010-81a4-4a54-a092-f6118baa5f19">
+
+
+2. Mobile
+
+<img width="188" alt="Screenshot 2024-05-23 at 01 15 49" src="https://github.com/sherinbinny/Where-your-money-goes/assets/101629905/f2f79d84-4171-464f-a406-202ae52b11bf">
 
 
