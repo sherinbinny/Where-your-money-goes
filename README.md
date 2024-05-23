@@ -16,14 +16,11 @@ The design specifications were provided in Figma, which guided the layout, color
 
 I deployed the webpage to GitHub Pages for easy access. You can view the [deployed application](https://sherinbinny.github.io/Where-your-money-goes).
 
-### Project Structure
+## Technologies Used
 
-The project structure includes the following files and folders:
-
-- `index.html`: Contains the HTML structure of the webpage.
-- `assets/css/index.css`: Contains the CSS styles for layout, typography, and responsiveness.
-- `assets/images/`: Folder containing image assets used in the project.
-- `assets/js/index.js`: JavaScript file for handling any interactive features or behavior.
+- HTML
+- CSS
+- JavaScript
 
 ### Running Instructions
 
@@ -37,4 +34,13 @@ To view the project locally:
 2. Open the `index.html` file in your preferred web browser.
 
 3. Test the responsiveness of the layout across different screen sizes by resizing the browser window.
+
+### Future Development
+
+1. **Accessibility**: Webpage isn't accessible for people with disabilities.
+
+2. **Image Loading**: Background image might take a bit longer to show up on the webpage because it's quite big.
+
+3. **Code Comments**: Didn't get a chance to add comments to describe how code works.
+
 

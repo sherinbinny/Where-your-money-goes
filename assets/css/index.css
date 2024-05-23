@@ -17,6 +17,8 @@ body,html
     margin: 0;
     background: url("../images/WhereYourMoneyGoes-Desktop.png") center center/cover no-repeat #d5995f;
     font-family: 'FSMeWeb-Regular', Arial, sans-serif;
+    min-height: 875px;
+    min-width: 375px;
 }
 
 .content-box
@@ -25,7 +27,7 @@ body,html
     height: auto;
 }
 
-.content-box > h1,
+.content-box > h2,
 .content-box > p:nth-child(4),
 .tool-tip-text > p:nth-child(2)
 {
@@ -56,6 +58,16 @@ button
     background-color: #173145;
 }
 
+.tool-tip-text > p:nth-child(2)
+{
+    font-size: 1.4rem;
+}
+
+.tool-tip-text > p:nth-child(3)
+{
+    font-size: 1.19rem;
+}
+
 .tool-tip-text span
 {
     position: absolute;
@@ -74,22 +86,30 @@ button
 
 /*******************************************************************************************************************************************************************************************************************************/
 
-@media only screen and (min-width: 768px) and (max-width: 991px)
+@media only screen and (min-width: 576px) and (max-width: 991px)
 {
-    body
+    body,html
     {
         background-position: center;
         background-size: auto 100%;
+        min-height: 727px;
+    }
+
+    .content-box > p:nth-child(3),
+    .content-box > p:nth-child(4),
+    .tool-tip-text > p:nth-child(3)
+    {
+        font-size: 1rem !important;
     }
 }
 
 /*******************************************************************************************************************************************************************************************************************************/
 
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 575px)
 {
-    body
+    body,html
     {
-        background: url("../images/WhereYourMoneyGoes-Mobile.png") center/cover no-repeat #d5995f;
+        background: url("../images/WhereYourMoneyGoes-Mobile.png") top/contain no-repeat #d5995f;
     }
 
     .content-box
@@ -97,19 +117,22 @@ button
         margin-top: 70%;
     }
 
+    .content-box > h2
+    {
+        font-size: 1.9rem;
+        line-height: 1.4;
+    }
+
+    .header-border
+    {
+        width: 15%;
+    }
 }
 
 /*******************************************************************************************************************************************************************************************************************************/
 
-@media only screen and (max-width: 650px)
+@media only screen and (max-width: 500px)
 {
-    body
-    {
-        background-position: top;
-        background-size: contain
-    }
-
-
     .content-box
     {
         margin-top: 90%;
