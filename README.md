@@ -1,5 +1,3 @@
-<img width="863" alt="Screenshot 2024-05-23 at 01 15 24" src="https://github.com/sherinbinny/Where-your-money-goes/assets/101629905/87b56600-8c93-4a0a-99f5-b67f1d10256f">## Where your money goes?
-
 ### Front end Development Task for Tearfund
 
 Below is a summary of the project I completed based on the provided design and requirements.
